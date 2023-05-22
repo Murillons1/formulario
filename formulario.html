@@ -39,26 +39,29 @@
     </table>
     <br>
     <br>
-
-    <label for="produto">Selecione um Produto</label>
-        <select name="produto" id="produto">
-            <option value="laranja" >Laranja</option>
-            <option value="limao"selected>Limão</option>
-            <option value="pera">Pera</option>
-        </select>
-        <label for="qtde">Selecione a Quantidade</label>
-        <select name="qtde" id="qtde">     
-            <option value="1" selected >1kg</option>
-            <option value="2">2kg</option>
-            <option value="3">3kg</option>
-            <option value="4">4kg</option>
-        </select>
-    <br>
-    <br>
-    <button type="submit" value="enviar" id="btn_enviar">Enviar</button>
-    <br>
-
-    <div id="res"></div>
-    
+    <form action="/" method="post">
+        <label for="produto">Selecione um Produto</label>
+            <select name="produto" id="produto">
+                <option value="laranja" >Laranja</option>
+                <option value="limao"selected>Limão</option>
+                <option value="pera">Pera</option>
+            </select>
+            <label for="qtde">Selecione a Quantidade</label>
+            <select name="qtde" id="qtde">     
+                <option value="1" selected>1kg</option>
+                <option value="2">2kg</option>
+                <option value="3">3kg</option>
+                <option value="4">4kg</option>
+            </select>
+        <br>
+        <br>
+        <button type="submit" value="enviar" id="btn_enviar">Enviar</button>
+        <br>
+        <div id="res"></div>
+        <br>
+        <button type="submit" value="calcular" id="btn_calcular">Calcular</button>
+        <br>
+        <div id="res2"></div>
+    </form>
 </body>
 </html>
